@@ -33,6 +33,7 @@ public class HelloController {
 
 }
 
+@RestController
 public class InfoController {
 
     @GetMapping("/info")
