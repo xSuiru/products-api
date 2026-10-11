@@ -33,9 +33,3 @@ public class HelloController {
 
 }
 
-@RestController
-public class InfoController {
-
-    @GetMapping("/info")
-    public String info(){ return "Products API - Spring Boot application"; }
-}
