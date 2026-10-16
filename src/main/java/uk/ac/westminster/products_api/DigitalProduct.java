@@ -5,6 +5,13 @@ public class DigitalProduct extends Product{
     private String downloadUrl;
     private double filesize;
 
+    public DigitalProduct() {
+    }
+
+    public DigitalProduct(String downloadUrl, double filesize) {
+        this.downloadUrl = downloadUrl;
+    }
+
     public String getDownloadUrl() {
         return downloadUrl;
     }
