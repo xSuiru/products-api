@@ -8,8 +8,10 @@ public class DigitalProduct extends Product{
     public DigitalProduct() {
     }
 
-    public DigitalProduct(String downloadUrl, double filesize) {
+    public DigitalProduct(Long id, String name, double price, String downloadUrl, double filesize) {
+        super(id, name, price); //super class must be in the first line of the constructor
         this.downloadUrl = downloadUrl;
+        this.filesize = filesize;
     }
 
     public String getDownloadUrl() {
